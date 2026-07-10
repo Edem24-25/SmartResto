@@ -30,7 +30,7 @@ $dishes = $stmt->fetchAll();
     </div>
   </div>
   <div class="hero-media">
-    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Ambiance d'un restaurant moderne">
+    <img src="<?= BASE_URL ?>/assets/img/restaurant-hero.png" alt="Ambiance d'un restaurant moderne">
   </div>
 </div></section>
 
